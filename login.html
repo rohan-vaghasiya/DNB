@@ -11,7 +11,7 @@
 
 </head>
 
-<body>
+<body class="home-container">
 
     <!-- Navbar start -->
     <nav class="nav">
@@ -38,15 +38,32 @@
 
     <!-- main container start -->
     <main class="main-container">
-        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-<div class="logo"></div>
-<div class="login-block">
-    <h1>Login</h1>
-    <input type="text" value="" placeholder="Username" id="username" />
-    <input type="password" value="" placeholder="Password" id="password" />
-    <button>Submit</button>
-</div>
-
+        <div class="form_wrapper">
+            <div class="form_container">
+                <div class="grid">
+                    <div class="row clearfix">
+                        <div>
+                            <div class="title_container">
+                                <h2>Login</h2>
+                            </div>
+                            <form>
+                                <div class="input_field">
+                                    <input type="email" name="email" placeholder="Email" required />
+                                </div>
+                                <div class="input_field">
+                                    <input type="password" name="password" placeholder="Password" required />
+                                </div>
+                                <input class="button" type="submit" value="Log in" />
+                            </form>
+                        </div>
+                    </div>
+                    <div class="signupImg">
+                        <figure><img src="/images/form/signin-image.png" alt="sing up image"></figure>
+                        <a href="signup.html" class="loginLink">Don't have an account?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <!-- main container end -->
 
