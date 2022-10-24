@@ -8,6 +8,7 @@
     <title>Digital notice board</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="form.css">
 
 </head>
 
@@ -41,25 +42,23 @@
         <div class="form_wrapper">
             <div class="form_container">
                 <div class="grid">
-                    <div class="row clearfix">
-                        <div>
-                            <div class="title_container">
-                                <h2>Login</h2>
-                            </div>
-                            <form>
-                                <div class="input_field">
-                                    <input type="email" name="email" placeholder="Email" required />
-                                </div>
-                                <div class="input_field">
-                                    <input type="password" name="password" placeholder="Password" required />
-                                </div>
-                                <input class="button" type="submit" value="Log in" />
-                            </form>
+                    <div class="row">
+                        <div class="title_container">
+                            <h2>Login</h2>
                         </div>
+                        <form>
+                            <div class="input_field">
+                                <input type="email" name="email" placeholder="Email" required />
+                            </div>
+                            <div class="input_field">
+                                <input type="password" name="password" placeholder="Password" required />
+                            </div>
+                            <input class="button" type="submit" value="Log in" />
+                        </form>
                     </div>
-                    <div class="signupImg">
+                    <div class="loginImg">
                         <figure><img src="/images/form/signin-image.png" alt="sing up image"></figure>
-                        <a href="signup.html" class="loginLink">Don't have an account?</a>
+                        <a href="signup.html" class="signupLink">Don't have an account?</a>
                     </div>
                 </div>
             </div>
