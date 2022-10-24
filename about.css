@@ -1,0 +1,36 @@
+.main-container {
+    margin: 125px 0;
+}
+
+.about-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 65px;
+}
+
+.card-content {
+    padding: 0px 30px 0 3 0px;
+}
+
+.card-content h1 {
+    font-weight: 500;
+}
+
+.card-content p {
+    color: #333333;
+    margin-top: 15px;
+    font-size: 19px;
+}
+
+.card-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.card-img img {
+    width: 12rem;
+}
