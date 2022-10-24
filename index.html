@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital notice board</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
 </head>
 
 <body>
@@ -36,18 +37,21 @@
 
     <!-- main container start -->
     <main class="main-container">
-        <div>
-            <img class="homePageBanner" src="/images/homeBanner.jpg" alt="">
+        <div class="image-container">
+            <img class="homePageBanner" src="/images/homeBanner1.jpg" alt="">
+            <button class="btn" onclick="window.scroll(0,document.getElementById('announcements').offsetTop -120)">Get
+                Started</button>
         </div>
-
-        <div class="container">
-            <p class="heading">Stay Updated...</p>
+        <div class="container announcements" id="announcements">
+            <p class="heading">Announcements</p>
             <div class="grid grid-3">
                 <div class="card">
-                    <img src="/images/others/card1.jpg" class="
+                    <img src="/images/announcement/card1.jpg" class="
                      card-img" alt="">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        <p class="card-text">Some quick example text to build on the card title and make up the
+                            bulk
+                            of
                             the card'sSome quick example text to build on the card title and make up the bulk of
                             the card'sSome quick example text to build on the card title and make up the bulk of
                             the card'sSome quick example text to build on the card title and make up the bulk of
@@ -56,10 +60,12 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img src="/images/others/card2.jpg" class="
+                    <img src="/images/announcement/card2.jpg" class="
                                  card-img" alt="">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        <p class="card-text">Some quick example text to build on the card title and make up the
+                            bulk
+                            of
                             the card'sSome quick example text to build on the card title and make up the bulk of
                             the card'sSome quick example text to build on the card title and make up the bulk of
                             the card'sSome quick example text to build on the card title and make up the bulk of
@@ -68,10 +74,12 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img src="/images/others/card3.jpg" class="
+                    <img src="/images/announcement/card3.jpg" class="
                                  card-img" alt="">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        <p class="card-text">Some quick example text to build on the card title and make up the
+                            bulk
+                            of
                             the card'sSome quick example text to build on the card title and make up the bulk of
                             the card'sSome quick example text to build on the card title and make up the bulk of
                             the card'sSome quick example text to build on the card title and make up the bulk of
@@ -81,18 +89,154 @@
                 </div>
             </div>
         </div>
+        <div class="category-section" id="categories">
+            <div class="container">
+                <div class="notice-category">
+                    <p class="heading">Categories</p>
+                    <div class="grid grid-4">
+                        <div class="card">
+                            <img src="/images/categories/admission.png" class="
+                                 card-img" alt="">
+                            <div class="card-body">
+                                <h2 class="card-title">Admission</h2>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's. Some quick example text to build on the card title and make up
+                                    the bulk of the card's.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="/images/categories/examination.png" class="
+                                                     card-img" alt="">
+                            <div class="card-body">
+                                <h2 class="card-title">Examination</h2>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's. Some quick example text to build on the card title and make up
+                                    the bulk of the card's.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="/images/categories/placement.png" class="
+                                                                             card-img" alt="">
+                            <div class="card-body">
+                                <h2 class="card-title">Placements</h2>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's. Some quick
+                                    example text to build on the card title and make up the bulk of the card's.</p>
 
-        <div class="container"></div>
-        <div class="container"></div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="/images/categories/event.png" class="card-img" alt="">
+                            <div class="card-body">
+                                <h2 class="card-title">Events</h2>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's. Some quick
+                                    example text to build on the card title and make up the bulk of the card's.</p>
+
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="/images/categories/research.png" class="
+                                                         card-img" alt="">
+                            <div class="card-body">
+                                <h2 class="card-title">Research</h2>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's. Some quick example text to build on the card title and make up
+                                    the bulk of the card's.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="/images/categories/sports.png" class="
+                                                                             card-img" alt="">
+                            <div class="card-body">
+                                <h2 class="card-title">Sports</h2>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's. Some quick example text to build on the card title and make up
+                                    the bulk of the card's.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="/images/categories/workshop.png" class="
+                                                                                                     card-img" alt="">
+                            <div class="card-body">
+                                <h2 class="card-title">Workshop</h2>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's. Some quick
+                                    example text to build on the card title and make up the bulk of the card's.</p>
+
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="/images/categories/club.png" class="card-img" alt="">
+                            <div class="card-body">
+                                <h2 class="card-title">Club & Activities</h2>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's. Some quick
+                                    example text to build on the card title and make up the bulk of the card's.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <!-- main container end -->
 
 
     <!-- Footer start  -->
     <footer class="footer">
-        <p>Copyright &copy 2022 www.digitalnotice.com All Rights Reserved.</p>
-        <!-- Footer end  -->
+        <div class="container">
+            <div class="footer-head">
+                <div>
+                    <a href="index.html"><img src="images/logo.png" class="logo">
+                    </a>
+                </div>
+                <div class="socialMedia">
+                    <img src="/images/socialMedia/facebook.png" alt="" srcset="">
+                    <img src="/images/socialMedia/linkedin.png" alt="" srcset="">
+                    <img src="/images/socialMedia/twitter.png" alt="" srcset="">
+                    <img src="/images/socialMedia/instagram.png" alt="" srcset="">
+                    <img src="/images/socialMedia/youtube.png" alt="" srcset="">
+                </div>
+            </div>
+            <div class="footer-body">
+                <div class="footerContactInfo">
+                    <ul>
+                        <li>Contact Number : +919874563210</li>
+                        <li>Email : support@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="grid grid-3">
+                    <div class="footerLinks">
+                        <ul>
+                            <li><a href="signup.html">Sign up</a></li>
+                            <li><a href="login.html">Log in</a></li>
+                        </ul>
+                    </div>
+                    <div class="footerLinks">
+                        <ul>
+                            <li><a href="aboutus.html">About us</a></li>
+                            <li><a href="support.html">Support</a></li>
+                        </ul>
+                    </div>
+                    <div class="footerLinks">
+                        <ul>
+                            <li onClick="window.scroll(0,document.getElementById('announcements').offsetTop -120)">
+                                Latest
+                                Announcements</li>
+                            <li onClick="window.scroll(0,document.getElementById('categories').offsetTop -50)">
+                                Categories</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <p>Copyright &copy 2022 www.digitalnotice.com All Rights Reserved.</p>
+            </div>
+        </div>
     </footer>
+    <!-- Footer end  -->
 
 </body>
 
