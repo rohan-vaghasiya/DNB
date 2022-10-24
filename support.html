@@ -8,6 +8,7 @@
     <title>Digital notice board</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="support.css">
+    <link rel="stylesheet" href="form.css">
 </head>
 
 <body>
@@ -37,31 +38,37 @@
 
     <!-- main container start -->
     <main class="main-container">
-        <div class="container">  
-            <form id="contact" action="" method="post">
-              <h3><b>Contact Us</h3></b>
-              
-              <fieldset>
-                <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-              </fieldset>
-              <fieldset>
-                <input placeholder="Your Email Address" type="email" tabindex="2" required>
-              </fieldset>
-              <fieldset>
-                <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
-              </fieldset>
-              <fieldset>
-                <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
-              </fieldset>
-              <fieldset>
-                <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
-              </fieldset>
-              <fieldset>
-                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-              </fieldset>
-              
-            </form>
-          </div>
+        <div class="form_wrapper">
+            <div class="form_container">
+                <div class="grid">
+                    <div class="row">
+                        <div>
+                            <div class="title_container">
+                                <h2>Need Support ?</h2>
+                            </div>
+                            <form>
+                                <div class="input_field">
+                                    <input type="text" name="Name" placeholder="Name" required />
+                                </div>
+                                <div class="input_field">
+                                    <input type="email" name="email" placeholder="Email" required />
+                                </div>
+                                <div class="input_field">
+                                    <input type="tel" name="phno" placeholder="Phone number" required />
+                                </div>
+                                <div class="input_field">
+                                    <input type="textarea" name="description" placeholder="Description" required />
+                                </div>
+                                <input class="button" type="submit" value="Submit" />
+                            </form>
+                        </div>
+                    </div>
+                    <div class="supportImg">
+                        <figure><img src="/images/form/support.png" alt="sing up image"></figure>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <!-- main container end -->
 

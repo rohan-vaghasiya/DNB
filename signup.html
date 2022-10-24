@@ -8,6 +8,8 @@
   <title>Digital notice board</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="signup.css">
+  <link rel="stylesheet" href="form.css">
+
 </head>
 
 <body>
@@ -44,48 +46,46 @@
             <figure><img src="/images/form/signup-image.png" alt="sing up image"></figure>
             <a href="login.html" class="loginLink">Already have an account?</a>
           </div>
-          <div class="row clearfix">
-            <div>
-              <div class="title_container">
-                <h2>Sign up</h2>
-              </div>
-              <form>
-                <div class="row clearfix">
-                  <div class="col_half">
-                    <div class="input_field">
-                      <input type="text" name="name" placeholder="First Name" />
-                    </div>
-                  </div>
-                  <div class="col_half">
-                    <div class="input_field">
-                      <input type="text" name="name" placeholder="Last Name" required />
-                    </div>
-                  </div>
-                </div>
-                <div class="input_field">
-                  <input type="email" name="email" placeholder="Email" required />
-                </div>
-                <div class="input_field">
-                  <input type="password" name="password" placeholder="Password" required />
-                </div>
-                <div class="input_field">
-                  <input type="text" name="regId" placeholder="Registration Id" />
-                </div>
-                <div class="input_field">
-                  <input type="tel" name="mobile" placeholder="Phone Number" required />
-                </div>
-                <div class="input_field">
-                  <input placeholder="Date of Birth" type="text" onfocus="(this.type = 'date')" name="dob" required>
-                </div>
-                <div class="input_field radio_option">
-                  <input type="radio" name="radiogroup1" id="rd1">
-                  <label for="rd1">Male</label>
-                  <input type="radio" name="radiogroup1" id="rd2">
-                  <label for="rd2">Female</label>
-                </div>
-                <input class="button" type="submit" value="Register" />
-              </form>
+          <div class="row">
+            <div class="title_container">
+              <h2>Sign up</h2>
             </div>
+            <form>
+              <div class="row">
+                <div class="col_half">
+                  <div class="input_field">
+                    <input type="text" name="name" placeholder="First Name" />
+                  </div>
+                </div>
+                <div class="col_half">
+                  <div class="input_field">
+                    <input type="text" name="name" placeholder="Last Name" required />
+                  </div>
+                </div>
+              </div>
+              <div class="input_field">
+                <input type="email" name="email" placeholder="Email" required />
+              </div>
+              <div class="input_field">
+                <input type="password" name="password" placeholder="Password" required />
+              </div>
+              <div class="input_field">
+                <input type="text" name="regId" placeholder="Registration Id" />
+              </div>
+              <div class="input_field">
+                <input type="tel" name="mobile" placeholder="Phone Number" required />
+              </div>
+              <div class="input_field">
+                <input placeholder="Date of Birth" type="text" onfocus="(this.type = 'date')" name="dob" required>
+              </div>
+              <div class="input_field radio_option">
+                <input type="radio" name="radiogroup1" id="rd1">
+                <label for="rd1">Male</label>
+                <input type="radio" name="radiogroup1" id="rd2">
+                <label for="rd2">Female</label>
+              </div>
+              <input class="button" type="submit" value="Register" />
+            </form>
           </div>
         </div>
       </div>
