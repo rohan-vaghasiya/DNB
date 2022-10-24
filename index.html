@@ -8,6 +8,7 @@
     <title>Digital notice board</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/home.css">
+
 </head>
 
 <body>
@@ -238,6 +239,17 @@
     </footer>
     <!-- Footer end  -->
 
+
+    <script>
+        (function redirectAndScroll() {
+            if (window.location.search) {
+                if (window.location.search === "?announcements") window.scroll(0, document.getElementById('announcements').offsetTop - 120)
+            }
+            if (window.location.search) {
+                if (window.location.search === "?categories") window.scroll(0, document.getElementById('categories').offsetTop - 75)
+            }
+        })()
+    </script>
 </body>
 
 </html>
